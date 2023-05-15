@@ -1,19 +1,19 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "pphuc25",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
+    role: "AI Engineer",
     bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    email: "phanphuc1100@gmail.com",
+    linkedin: "hiamdiu",
+    github: "pphuc25",
     instagram: "",
   },
   projects: [
     {
       name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      href: "https://github.com/pphuc25/morethan-log",
     },
   ],
   // blog setting (required)
@@ -34,7 +34,8 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID,
+    // pageId: process.env.NOTION_PAGE_ID,
+    pageId: 'https://rounded-limburger-0f8.notion.site/9e3d9b16f1f54636806e1e2feb88e2b5?v=613dbaefea9e42959f0da0ce4091b153'
   },
 
   // plugin configuration (optional)
