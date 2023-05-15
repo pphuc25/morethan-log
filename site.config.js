@@ -24,8 +24,8 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://pphuc25.vercel.app",
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
@@ -34,39 +34,39 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    // pageId: process.env.NOTION_PAGE_ID,
-    pageId: 'https://rounded-limburger-0f8.notion.site/9e3d9b16f1f54636806e1e2feb88e2b5?v=613dbaefea9e42959f0da0ce4091b153'
+    pageId: process.env.NOTION_PAGE_ID,
+    // pageId: 'https://rounded-limburger-0f8.notion.site/9e3d9b16f1f54636806e1e2feb88e2b5?v=613dbaefea9e42959f0da0ce4091b153'
   },
 
-//   plugin configuration (optional)
-//   googleAnalytics: {
-//     enable: false,
-//     config: {
-//       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
-//     },
-//   },
-//   googleSearchConsole: {
-//     enable: false,
-//     config: {
-//       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
-//     },
-//   },
-//   utterances: {
-//     enable: true,
-//     config: {
-//       repo: "pphuc25/morethan-log",
-//       "issue-term": "og:title",
-//       label: "💬 Utterances",
-//     },
-//   },
-//   cusdis: {
-//     enable: false,
-//     config: {
-//       host: "https://cusdis.com",
-//       appid: "", // Embed Code -> data-app-id value
-//     },
-//   },
-//   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
+  // plugin configuration (optional)
+  googleAnalytics: {
+    enable: false,
+    config: {
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
+    },
+  },
+  googleSearchConsole: {
+    enable: false,
+    config: {
+      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+    },
+  },
+  utterances: {
+    enable: false,
+    config: {
+      repo: "pphuc25/morethan-log",
+      "issue-term": "og:title",
+      label: "💬 Utterances",
+    },
+  },
+  cusdis: {
+    enable: false,
+    config: {
+      host: "https://cusdis.com",
+      appid: "", // Embed Code -> data-app-id value
+    },
+  },
+  isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 
 module.exports = { CONFIG }
